@@ -1,0 +1,54 @@
+header {
+  text-align: center;
+  font: 35px monospace;
+}
+
+h1 {
+  margin: 5px;
+}
+
+section {
+  border: 3px solid black;
+  overflow-y: scroll;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 50px;
+  height: 500px;
+  padding: 20px;
+}
+div {
+  position: relative;
+  border-radius: 5px;
+  overflow: visible;
+}
+.message {
+  overflow: visible;
+  padding: 20px;
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+}
+.player-message {
+  overflow: visible;
+  padding: 20px;
+  background-color: #7CFC00;
+  color: white;
+  text-align: right;
+  border-radius: 20px;
+}
+.chatbot-icon {
+  position: absolute;
+  top: 40%;
+  left: 1%;
+  color: blue;
+}
+.player-icon {
+  position: absolute;
+  top: 40%;
+  left: 94%;
+  color: #7CFC00;
+}
+.center {
+  margin-left: 40%;
+  margin-top: 20px;
+}
